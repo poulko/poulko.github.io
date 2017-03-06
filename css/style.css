@@ -1,0 +1,250 @@
+.main-content{
+	margin: 0 auto;
+}
+.block1{
+ 	width: 100%;
+ 	height: 796px;
+ 	background: url(../image/banner.jpg);
+ }
+ .center-block{
+ 	max-width: 900px;
+
+ }
+ 	.logo{
+ 		padding-top: 50px;
+ 	}
+ 		.logo img{
+ 			width: 150px;
+ 			height: 150px;
+ 			display: block;
+ 			margin: 0 auto;
+ 			padding: 52px 52px;
+ 			border: 1px solid #000;
+			border-radius: 130px;
+			background:#000;	
+ 		}
+	.block1>h1{
+		text-align: center;
+		color: #fff;
+		font-size: 49.3px;
+		margin-top: 50px;
+		text-transform: uppercase;
+	}
+	.block1 h1 span{
+		font-weight: bold;
+	}
+		.press{
+		width: 26%;
+		border:  0.5px solid #c4c4c4;
+		background: #fff;
+		margin: 60px auto 0 auto;
+		
+		}
+		.press form{
+			padding: 20px 0;
+		}
+		.text-f{
+		width:100%;
+		display: block;
+		margin:0px auto;
+		border: 1px solid #c4c4c4;
+		border-radius: 5px;
+		box-sizing: border-box;
+	}
+
+		.press input[type=text]{
+			padding: 7px 10px;
+		}
+		.press img{
+			margin-bottom: 20px;
+		}
+		.press p{
+			color: #a19d9d;
+			text-align: center;
+			font-size:15.3px;
+			margin-bottom: 20px;
+		}
+		.btn{
+			display: block;
+			margin: 0 auto;
+			font-size: 26px;
+			border: 1px solid #227dd3;
+			background: #227dd3;
+			color: #fff;
+			text-transform: uppercase;
+			padding: 8px 23px;
+			margin-bottom: 20px;
+			cursor:pointer;
+		}
+		.btn:hover{
+			  -webkit-transform: scale(1.2);
+  				-ms-transform: scale(1.2);
+  				transform: scale(1.2);
+		}
+.block2{
+	margin-top: 120px;
+	margin-bottom: 40px;
+}	
+	.left{
+		width: 50%;
+		float: left;
+	}
+	  .left img{
+	  	margin-top: 70px;
+	  	display: block;
+		float: left;
+		margin-left: 120px;
+	  }
+			.rgh{
+				display: block;
+				float: right;
+				margin-right: 70px;
+
+			}
+			 	.rgh h1{
+			 		color: #5b5c5d;
+			 		font-size: 27px;
+			 		margin-top: 50px;
+			 		font-weight: bold;
+			 	}
+				.rgh p{
+					color: #5b5c5d;
+					font-size: 13.2px;
+					margin-top: 30px;
+					margin-bottom: 40px;
+				}
+	.right{
+		width: 50%;
+		float: right;
+	}
+	  .right img{
+	  	margin-top: 70px;
+	  	display: block;
+		float: left;
+		margin-left: 120px;
+	  }
+.block3{
+	max-width: 100%;
+	height: 921px;
+	background: url(../image/back1.jpg);
+}
+		.infor1{
+			max-width: 605px;
+			display: block;
+			margin: 0 auto;
+			padding-top: 260px;
+		}
+			.infor1 h1{
+				color: #fff;
+				font-size: 39.3px;
+				text-align: center;
+				margin-bottom: 30px;
+			}
+			.infor1 p{
+				color: #fff;
+				font-size: 14px;
+				margin-bottom: 45px;
+				line-height: 1.8;
+			}
+.block4{
+	margin-top: -330px;
+	max-width: 100%;
+	height: 862px;
+	background: url(../image/back2.png);
+	z-index: 99;
+}
+			.infor2{
+				display: block;
+				max-width: 520px;
+				float: right;
+				padding-top: 360px;
+				padding-right: 150px;
+
+			}
+			.infor2 h1{
+				color: #fff;
+				font-size: 39.3px;
+				margin-bottom: 30px;
+			}
+			.infor2 p{
+				color: #fff;
+				font-size: 14px;
+				line-height: 1.8;
+				margin-bottom: 30px;
+			}
+			.down-btn{
+				text-transform: uppercase;
+				color: #fff;
+				font-size: 27px;
+				border: 2px solid #fff;
+				padding:6px 20px;
+				border-radius: 10px;
+			}
+				.down-btn:hover{
+					color: #fff;
+
+				}
+
+.contact-section{
+  position: relative;
+  height: 550px;
+
+}               
+    .contact-block{
+      position: absolute;
+     bottom: 100px;
+     width: 320px;
+     left:50%;
+     margin-left: -160px;
+     background: rgba(67,160,109, 0.3);
+     border-radius: 5px;
+     padding: 30px 30px 15px 30px;
+     box-sizing: border-box;
+
+    }
+
+      .cont-email{
+      width: 100%;
+      font-size: 0.875em;
+      margin-bottom: 15px;
+      padding: 7px 20px;
+      box-sizing: border-box;
+      border: none;
+      color:#d3d3d3;
+      text-align: center;
+
+    } 
+        .text{
+      width: 100%;
+      font-size: 0.875em;
+      margin-bottom: 15px;
+      padding: 7px 20px;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 5px;
+      color:#d3d3d3;
+      height: 50px;
+      text-align: center;
+      
+    } 
+        .cont-inpt{
+        background: rgba(67,160,109, 0.3);
+        color: #fff ;
+        font-size: 1em;
+        border:1px solid #d3d3d3;
+        font-weight: bold;
+        padding: 10px 60px;
+        cursor:pointer;
+
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+      }
+ footer{
+ 	background: #43a06d;
+ 	text-align: center;
+ 	color: #fff;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	font-size: 9px;
+ }    

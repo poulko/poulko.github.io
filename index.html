@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Landing page</title>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div class="main-content">
+		<div class="block1 clearfix">
+				<div class="logo">
+								<img src="image/logo.jpg" alt="">
+				</div>
+						<h1>Be sure you put your feet<br>
+						<span> in the right place</span></h1>
+
+			 	<div class="press animated zoomIn">
+			 			<form action="" method="get">
+								<input  type="text" class="text-f" placeholder="Enter your zip code">				
+						</form>
+						<img src="image/places.jpg" alt="">
+					<p>This is Photoshop's version  of<br> Lorem Ipsum</p>
+						<form action="" method="get">
+							<input type="submit" class="btn" name="" value="press me"> 
+						</form>
+
+			 	</div>
+		</div>
+
+<div class="block2 clearfix">
+		<div class="left clearfix">
+			<img src="image/doc.png" alt="">
+				<div class="rgh">
+				<h1>Documents</h1>
+				<p>This is Photoshop's version  of Lorem<br> Ipsum. Proin gravida nibh vel velit auctor<br> aliquet. Aenean sollicitudin.</p>
+				</div>		
+		</div>
+
+				<div class="right clearfix">
+			<img src="image/photo.png" alt="">
+				<div class="rgh">
+				<h1>Photo</h1>
+				<p>This is Photoshop's version  of Lorem<br> Ipsum. Proin gravida nibh vel velit auctor<br> aliquet. Aenean sollicitudin</p>
+				</div>		
+		</div>
+	
+</div>
+<div class="block3">
+	<div class="infor1">
+		<h1>This is a Heading</h1>
+		<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. 
+		</p>
+		<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+	</div>		
+</div>
+<div class="block4 clearfix animated mov">
+		<div class="infor2">
+			<h1>This is a Heading</h1>
+			<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+			<a href="#" class="down-btn"> download</a>
+		</div>
+</div>
+<div class="contact-section clearfix">
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.0405222880513!2d27.558661461544403!3d53.89548369568477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc360da48c9%3A0x903c79016f027b8!2z0KHRgtCw0LTQuNC-0L0g0JTQuNC90LDQvNC-!5e0!3m2!1sru!2sru!4v1454519546184" frameborder="0" style="border:0" allowfullscreen width="100%" height="550"></iframe>
+
+		<div class="contact-block">
+             
+             <form action="" method="get">
+             <input class="cont-email" type="text" placeholder="Your name">
+               <input class="cont-email" type="email" placeholder="Your email">
+                     <textarea class="text" placeholder="Message"></textarea>
+               <input class="cont-inpt" type="submit" value="Send">
+               
+             </form>
+             </div>	
+</div>
+<footer>
+	<p>Copyright, All Rights Reserved</p>
+</footer>
+</div>	
+<script type="text/javascript">
+	$(window).scroll(function() {
+    $('.mov').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+700) {
+        $(this).addClass('slideInRight');
+      }
+    });
+  });
+</script>
+</body>
+</html>
